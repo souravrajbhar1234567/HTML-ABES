@@ -1,0 +1,36 @@
+#container-box{
+    display: grid;
+    grid-template-rows: repeat (2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid blanchedalmond;
+    gap: 4px;
+    
+}
+.box { border: 1px solid brown;
+
+}
+.box :nth-child(1){
+    display: flex;
+    height: 100px;
+    width: auto;
+    
+}
+    
+.part{
+    border: 0cap;
+    width: 40px;
+    height: 50%;
+}
+.part{
+    border: 1px solid salmon;
+    height: fit-content;
+
+}
+.box :nth-child(1),:nth-child(3),:nth-child(5),:nth-child(7):{
+
+    background-color: aqua;
+    
+}

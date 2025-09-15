@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.bulb {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: gray;  /* default bulb color */
+  margin: 20px auto;
+  box-shadow: 0 0 20px #999;
+  transition: background 0.4s, box-shadow 0.4s;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
